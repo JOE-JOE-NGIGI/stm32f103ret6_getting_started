@@ -45,6 +45,7 @@ Add New Item to Group ‘APP’
 Click the + sign to extend the APP folder items and double-click on main.c
 
 Here is the link to the full tutorial for this project:
+
 https://medium.com/@jngigiw/stm32f103ret6-getting-started-blink-internal-led-using-keil-mdk-7a1970972f37
 
 
@@ -54,5 +55,3 @@ References:
 https://stm32-base.org/boards/STM32F103RET6-Generic-Board.html
 https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
 
-Here is the link to the medium article for this project:
-https://medium.com/@jngigiw/stm32f103ret6-getting-started-blink-internal-led-using-keil-mdk-7a1970972f37
