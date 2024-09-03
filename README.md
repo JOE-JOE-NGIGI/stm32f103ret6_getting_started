@@ -4,8 +4,9 @@ I initially struggled to find reliable documentation but recently discovered thi
 
 As usual, I first wanted to be able to blink the inbuilt LED. When it worked, I wanted to document it so that I could always refer to it. Let’s get straight to what I did.
 
-Tools
-The actual board.
+
+# Tools 
+1. The actual board.
 
 The STM32F103RET6 Board
 2. Debugger — I used an ST-Link V2
@@ -21,7 +22,7 @@ The twenty PIN JTAG header connector
 
 5. An IDE — I’m using Keil MDK for this project
 
-Blink LED Project
+# Blink LED Project
 Assuming you have the ARM Keil MDK installed on your development PC, open it, navigate to the project, and select "create a new project."
 Choose a suitable location for your project and provide a file name for the project file. I used LED_App for this project.
 You then have to select the device for the target. So once that window pops up, expand the STMicroelectronics menu, expand the STM32F1 Menu, expand the STM32F103 Menu and select STM32F103RE. Then click ok.
