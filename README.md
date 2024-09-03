@@ -6,7 +6,7 @@ As usual, I first wanted to be able to blink the inbuilt LED. When it worked, I 
 
 
 # Tools
-Ordered List 
+
 1. The actual board - The STM32F103RET6 Board
 
 2. Debugger — I used an ST-Link V2
