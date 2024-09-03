@@ -5,19 +5,14 @@ I initially struggled to find reliable documentation but recently discovered thi
 As usual, I first wanted to be able to blink the inbuilt LED. When it worked, I wanted to document it so that I could always refer to it. Let’s get straight to what I did.
 
 
-# Tools 
-1. The actual board.
+# Tools
+Ordered List 
+1. The actual board - The STM32F103RET6 Board
 
-The STM32F103RET6 Board
 2. Debugger — I used an ST-Link V2
 
-
-ST Link V2 Debugger for flashing the code to the controller
 3. JTAG connecter for communication between the board and debugger
 
-
-
-The twenty PIN JTAG header connector
 4. Two Mini USB cables — One to power the board and the other to power the debugger
 
 5. An IDE — I’m using Keil MDK for this project
