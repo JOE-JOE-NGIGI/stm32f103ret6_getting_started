@@ -63,26 +63,26 @@ Under the inputs and outputs section, locate the User LED. The name is LED1, and
 User LED Pin number
 Let’s create a quick delay immediately after our device header. Not the best way to do this but it works for a start:
 
-// Quick and dirty delay
+```// Quick and dirty delay
 static void delay (unsigned int time) {
   volatile unsigned int i, j;
     for (unsigned int i = 0; i < time; i++)
         for (volatile unsigned int j = 0; j < 2000; j++);
-}
+}'''
 Next, we create a main function:
 
-int main (void) {
+```int main (void) {
 
-}
+}```
 We start by turning on the GPIOB peripheral clock inside the main function.
 
-int main (void) {
+```int main (void) {
     // Turn on the GPIOB peripheral clock
     RCC->APB2ENR |= RCC_APB2ENR_IOPBEN;
-}
+}```
 Next we configure PB11 as General Purpose Output Push-pull
 
-int main (void) {
+```int main (void) {
     // Turn on the GPIOB peripheral clock
     RCC->APB2ENR |= RCC_APB2ENR_IOPBEN;
     
@@ -91,10 +91,10 @@ int main (void) {
     GPIOB->CRH |= GPIO_CRH_MODE11_0; //set the mode for PB11 to output (max speed 10 MHz)
 
     
-}
+}```
 Then, we create a while loop to keep toggling the PB11 pin at intervals of 500 milliseconds.
 
-#include "stm32f10x.h"                  // Device header
+```#include "stm32f10x.h"                  // Device header
 
 
 // Quick and dirty delay
@@ -125,7 +125,8 @@ int main (void) {
     }
 
     
-}
+}```
+
 At this point, we can build our code to check for errors. Either hover over the build icon near the top-left menu bar or click F7.
 
 If you did everything correctly after building, you should not get any errors or warnings. If there are warnings or errors, please follow the compiler's recommendations to resolve them.
