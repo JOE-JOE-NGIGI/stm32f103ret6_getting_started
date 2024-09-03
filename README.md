@@ -1,4 +1,4 @@
-I have had board lying around for quite a while and just decided it’s time I tried to explore it.
+I have had this board lying around for quite a while and just decided it’s time I tried to explore it.
 
 I initially struggled to find reliable documentation but recently discovered this link. It’s quite helpful if you’re trying to understand where stuff is on the board to get a basic overview.
 
