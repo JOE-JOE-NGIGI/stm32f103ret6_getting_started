@@ -1,9 +1,0 @@
--xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
--fno-rtti -funsigned-char -fshort-enums -fshort-wchar
--gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality 
--I./RTE/Device/STM32F103RE
--I./RTE/_LED_Blink
--IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
--IC:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
--D__UVISION_VERSION="535" -D_RTE_ -DSTM32F10X_HD -D_RTE_
--o ./objects/main.o -MD "main.c"
